@@ -90,7 +90,7 @@ const Login = () => {
         <div className="container">
             <main className="signup-container">
                 <h1 className="heading-primary">Sign in<span className="span-blue">.</span></h1>
-                <p className="text-mute">Enter your credentials </p>
+                <p className="text-mute">Enter your credentials to access the portal</p>
                 {error && <p className="error-message">{error}</p>}
 
                 <form className="signup-form" onSubmit={login}>
